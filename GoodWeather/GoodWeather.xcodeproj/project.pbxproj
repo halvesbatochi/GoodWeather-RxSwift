@@ -15,6 +15,7 @@
 		5C29A44D28F84F70003D9CEA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C29A44B28F84F70003D9CEA /* LaunchScreen.storyboard */; };
 		5C29A45628F85E57003D9CEA /* WeatherResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C29A45528F85E57003D9CEA /* WeatherResult.swift */; };
 		5C52860E28F9DA4800C9B069 /* URLRequest+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C52860D28F9DA4800C9B069 /* URLRequest+Extensions.swift */; };
+		5C52861028F9F2F600C9B069 /* URL+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C52860F28F9F2F600C9B069 /* URL+Extensions.swift */; };
 		7662FE0137F6D43D061320AD /* Pods_GoodWeather.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CECEC2A9B584C69871C383F /* Pods_GoodWeather.framework */; };
 /* End PBXBuildFile section */
 
@@ -30,6 +31,7 @@
 		5C29A44E28F84F70003D9CEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5C29A45528F85E57003D9CEA /* WeatherResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherResult.swift; sourceTree = "<group>"; };
 		5C52860D28F9DA4800C9B069 /* URLRequest+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URLRequest+Extensions.swift"; sourceTree = "<group>"; };
+		5C52860F28F9F2F600C9B069 /* URL+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URL+Extensions.swift"; sourceTree = "<group>"; };
 		6CECEC2A9B584C69871C383F /* Pods_GoodWeather.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GoodWeather.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D944553C3269AA40B3230CA1 /* Pods-GoodWeather.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoodWeather.debug.xcconfig"; path = "Target Support Files/Pods-GoodWeather/Pods-GoodWeather.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -101,6 +103,7 @@
 			isa = PBXGroup;
 			children = (
 				5C52860D28F9DA4800C9B069 /* URLRequest+Extensions.swift */,
+				5C52860F28F9F2F600C9B069 /* URL+Extensions.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -229,6 +232,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5C29A44528F84F6F003D9CEA /* ViewController.swift in Sources */,
+				5C52861028F9F2F600C9B069 /* URL+Extensions.swift in Sources */,
 				5C29A45628F85E57003D9CEA /* WeatherResult.swift in Sources */,
 				5C29A44128F84F6F003D9CEA /* AppDelegate.swift in Sources */,
 				5C52860E28F9DA4800C9B069 /* URLRequest+Extensions.swift in Sources */,
